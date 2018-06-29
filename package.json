@@ -1,0 +1,46 @@
+{
+  "name": "n4v-app-error",
+  "version": "0.0.1",
+  "description": "Extendable Error class",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "prepublish": "npx tsc",
+    "release": "npx standard-version",
+    "test": "npx jasmine-ts --config=jasmine.json",
+    "test:coverage": "npx nyc -e .ts -x \"**/test/**/*.ts\" -x \"**/*.spec.ts\" jasmine-ts --config=jasmine.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kolbma/node-n4v-app-error.git"
+  },
+  "keywords": [
+    "n4v",
+    "net4VISIONS",
+    "typescript",
+    "error",
+    "extend",
+    "class"
+  ],
+  "author": {
+    "name": "Markus Kolb",
+    "email": "markus.kolb+node-n4v-app-error@n4v.eu"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kolbma/node-n4v-app-error/issues"
+  },
+  "homepage": "https://github.com/kolbma/node-n4v-app-error#readme",
+  "devDependencies": {
+    "@types/jasmine": "^2.8.8",
+    "@types/node": "^6.0.113",
+    "jasmine": "^3.1.0",
+    "jasmine-ts": "^0.2.1",
+    "jasmine-ts-console-reporter": "^3.1.1",
+    "nyc": "^11.7.3",
+    "standard-version": "^4.3.0",
+    "tslint": "^5.10.0",
+    "tslint-config-security": "^1.3.0",
+    "typescript": "^2.8.4"
+  }
+}
