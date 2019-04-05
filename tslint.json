@@ -17,6 +17,7 @@
       "single"
     ],
     "space-before-function-paren": false,
+    "tsr-detect-html-injection": false,
     "trailing-comma": false
   },
   "rulesDirectory": []

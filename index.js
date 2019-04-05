@@ -45,12 +45,13 @@ var AppError = /** @class */ (function (_super) {
         else {
             try {
                 message = new Error(arg1.toString());
+                // tslint:disable-next-line: no-empty
             }
             catch (err) {
             }
         }
         if (message) {
-            _this = _super.call(this, message) || this;
+            _this = _super.call(this, message.toString()) || this;
         }
         else {
             _this = _super.call(this) || this;

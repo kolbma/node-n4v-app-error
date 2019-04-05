@@ -9,7 +9,7 @@ export class AppError extends Error {
 
   constructor(arg1?: string | Error, ...params: any[]) {
     const INSTANCE_PROTO = new.target.prototype;
-    let message;
+    let message: string | Error;
     if (arg1 && typeof (arg1) === 'string') {
       message = arg1;
       if (params.length > 0) {
@@ -27,11 +27,12 @@ export class AppError extends Error {
     } else {
       try {
         message = new Error(arg1.toString());
+        // tslint:disable-next-line: no-empty
       } catch (err) {
       }
     }
     if (message) {
-      super(message);
+      super(message.toString());
     } else {
       super();
     }
