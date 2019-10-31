@@ -1,6 +1,13 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [0.0.3](https://github.com/kolbma/node-n4v-app-error/compare/v0.0.2...v0.0.3) (2019-10-31)
+
+
+### Bug Fixes
+
+* updating deps for security ([e178835](https://github.com/kolbma/node-n4v-app-error/commit/e17883564466363259da6a52b4b7350cae0e2672))
 
 ## [0.0.2](https://github.com/kolbma/node-n4v-app-error/compare/v0.0.1...v0.0.2) (2019-04-05)
 

@@ -1,6 +1,6 @@
 {
   "name": "n4v-app-error",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Extendable Error class",
   "main": "index.js",
   "types": "index.d.ts",
