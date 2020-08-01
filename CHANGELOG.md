@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.1.0](https://github.com/kolbma/node-n4v-app-error/compare/v0.0.3...v0.1.0) (2020-08-01)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** minimum node version v10
+
+* **deps:** update dependencies ([75e8e3d](https://github.com/kolbma/node-n4v-app-error/commit/75e8e3d26ec35e8c577c87a0a20182edff6626c8))
+
 ### [0.0.3](https://github.com/kolbma/node-n4v-app-error/compare/v0.0.2...v0.0.3) (2019-10-31)
 
 
